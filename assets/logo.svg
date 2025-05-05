@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <!-- Background Shape -->
+  <rect x="0" y="0" width="400" height="120" rx="10" ry="10" fill="#222222" />
+  
+  <!-- Red Diagonal Element -->
+  <polygon points="0,50 80,10 400,10 400,0 0,0" fill="#cf0a0a" />
+  <polygon points="320,120 400,70 400,120" fill="#cf0a0a" />
+  
+  <!-- Logo Text: ROMFORD -->
+  <text x="30" y="65" font-family="Oswald, sans-serif" font-size="50" font-weight="700" fill="#ffffff" letter-spacing="1">ROMFORD</text>
+  
+  <!-- Subtitle: AUTO SERVICES -->
+  <text x="33" y="90" font-family="Open Sans, sans-serif" font-size="20" font-weight="400" fill="#ffffff" letter-spacing="2">AUTO SERVICES</text>
+  
+  <!-- Gear Icon -->
+  <g transform="translate(340, 55) scale(0.8)">
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#cf0a0a" stroke-width="4" />
+    <path d="M0,-30 L0,-20 M15,-26 L10,-17 M26,-15 L17,-10 M30,0 L20,0 M26,15 L17,10 M15,26 L10,17 M0,30 L0,20 M-15,26 L-10,17 M-26,15 L-17,10 M-30,0 L-20,0 M-26,-15 L-17,-10 M-15,-26 L-10,-17" 
+          stroke="#cf0a0a" stroke-width="4" stroke-linecap="round" />
+    <circle cx="0" cy="0" r="10" fill="#cf0a0a" />
+  </g>
+  
+  <!-- Established Year -->
+  <text x="33" y="110" font-family="Open Sans, sans-serif" font-size="12" font-weight="400" fill="#cf0a0a">EST. 1987</text>
+</svg>
